@@ -8,6 +8,9 @@ authors = ["alexoleshk <ajiekc42@gmail.com>"]
 python = "^3.8"
 colorama = "^0.4.4"
 
+[tool.poetry.scripts]
+say-hello = "hello.scripts.say_hello:main"
+
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 flake8 = "^3.9.2"
